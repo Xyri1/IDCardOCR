@@ -1,0 +1,10 @@
+[project]
+name = "idcardocr"
+version = "0.1.0"
+description = "ID Card OCR processing using Tencent Cloud API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "pillow>=10.0.0",
+]
