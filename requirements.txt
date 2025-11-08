@@ -1,0 +1,16 @@
+# IDCardOCR Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+python-dotenv~=1.0.0
+pillow~=10.0
+PyMuPDF~=1.23.0
+requests~=2.31.0
+
+# Optional: for OCR-based side detection
+pytesseract~=0.3.10
+
+# Note: pytesseract requires Tesseract OCR binary to be installed separately
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+# macOS: brew install tesseract
+# Linux: apt-get install tesseract-ocr tesseract-ocr-chi-sim
